@@ -167,7 +167,7 @@ const FormCart = () => {
                     {error && <p className='text-red-600'>{error}</p>}
 
                     <label htmlFor="Description">Description</label>
-                    <textarea id="Description" className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 outline-none mt-1" rows="1" cols="30" value={descValue} onChange={handleChangeDesc} placeholder='Enter the Product description' required></textarea>
+                    <textarea id="Description" className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 outline-none mt-1" rows="3" cols="30" value={descValue} onChange={handleChangeDesc} placeholder='Enter the Product description' required></textarea>
                     {errore && <p className='text-red-600'>{errore}</p>}
                     <div className='flex space-x-4'>
                         <div >
